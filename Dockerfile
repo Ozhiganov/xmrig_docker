@@ -1,4 +1,6 @@
-FROM ubuntu
+
+FROM ubuntu:16.04
+MAINTAINER Evgeniy N. Ozhiganov <eozhiganov@ya.ru>
 
 RUN apt-get update && apt-get install -y git build-essential cmake libcurl4-openssl-dev
 
